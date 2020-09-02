@@ -14,9 +14,9 @@ public class DatabaseSeeder {
     private JdbcTemplate jdbcTemplate;
 
     public void insertData() {
-        jdbcTemplate.execute("INSERT INTO Person(first_name,last_name) VALUES('Victor', 'Hugo')");
-        jdbcTemplate.execute("INSERT INTO Person(first_name,last_name) VALUES('Dante', 'Alighieri')");
-        jdbcTemplate.execute("INSERT INTO Person(first_name,last_name) VALUES('Stefan', 'Zweig')");
-        jdbcTemplate.execute("INSERT INTO Person(first_name,last_name) VALUES('Oscar', 'Wilde')");
+        jdbcTemplate.execute("INSERT INTO Person(first_name,last_name) VALUES('Toma', 'Alimos')");
+        jdbcTemplate.execute("INSERT INTO Person(first_name,last_name) VALUES('Mircea', 'Barbat')");
+        jdbcTemplate.execute("INSERT INTO Person(first_name,last_name) VALUES('Dan', 'Capitan')");
+        jdbcTemplate.execute("INSERT INTO Person(first_name,last_name) VALUES('Ion', 'Haiduc')");
     }
 }
